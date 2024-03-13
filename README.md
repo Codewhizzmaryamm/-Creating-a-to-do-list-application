@@ -2,7 +2,7 @@ Front End (HTML, CSS, JavaScript):
 HTML (index.html):
 
 html
-Copy code
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +24,7 @@ Copy code
 CSS (styles.css):
 
 css
-Copy code
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -55,7 +55,7 @@ li {
 JavaScript (app.js):
 
 javascript
-Copy code
+
 function addTask() {
     const taskInput = document.getElementById('taskInput');
     const taskList = document.getElementById('taskList');
@@ -75,6 +75,7 @@ function removeTask(button) {
     const li = button.parentElement;
     li.remove();
 }
+
 Back End (Node.js):
 Install Node.js and npm:
 Install Node.js from https://nodejs.org/, which includes npm (Node Package Manager).
@@ -83,7 +84,7 @@ Initialize Your Project:
 Open a terminal in your project folder and run:
 
 bash
-Copy code
+
 npm init -y
 Install Express:
 
@@ -93,7 +94,7 @@ npm install express
 Create Server (server.js):
 
 javascript
-Copy code
+
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -107,7 +108,7 @@ Run Your Application:
 In the terminal, run:
 
 bash
-Copy code
+
 node server.js
 Visit http://localhost:3000 to see your to-do list app in action.
 
